@@ -25,7 +25,8 @@ export function TwitterFollowBans ({ children, userName = 'unknown', initialIsFo
 
             <aside>
                 <button className={buttonClassName} onClick={handleClick}>
-                    {text}
+                    <span className="zx-tw-followban-text">{text}</span>
+                    <span className="zx-tw-followban-stopFollowing">Dejar de seguir</span>
                 </button>
             </aside>
         </article>
